@@ -5,6 +5,6 @@
     para comprar um curso com valor reduzido
   Cenário: Vizualizar código de desconto
     Dado que estou no site da Qazando
-    Quando eu preenchomeu email
+    Quando eu preencho meu email
     E clico no ganhar cupom
     Então eu vejo o código de desconto
