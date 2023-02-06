@@ -2,6 +2,8 @@ package runner;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 
 
@@ -14,4 +16,17 @@ import org.junit.runner.RunWith;
 )
 
 public class RunCucumberTeste {
+
+    @BeforeClass
+    public static void start() {
+        System.out.println("Iniciou");
+    }
+
+    @AfterClass
+    public static void stop() {
+        System.out.println("Finalizou");
+    }
+
+
+
 }
