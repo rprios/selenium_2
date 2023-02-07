@@ -13,7 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 @CucumberOptions(
           plugin = {"json:target/reports/cucumberReport.json", "html:target/reports/html/"},
         features = "src/test/resources/features",
-            tags = {"~@ignore"},
+            tags = {"@Gerar-cupom"},
             glue = {"steps"}
 )
 

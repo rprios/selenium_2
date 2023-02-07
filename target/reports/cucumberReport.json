@@ -1,0 +1,98 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Vizualizar código de desconto",
+        "description": "",
+        "id": "receber-desconto-da-qazando;vizualizar-código-de-desconto",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 7558723000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que estou no site da Qazando",
+            "match": {
+              "location": "DescontosStep.acessar_site_qazando()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 133132000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "eu preencho meu email",
+            "match": {
+              "location": "DescontosStep.eu_preencho_meu_email()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 77872500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clico no ganhar cupom",
+            "match": {
+              "location": "DescontosStep.clico_no_ganhar_cupom()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 26685000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "eu vejo o código de desconto",
+            "match": {
+              "location": "DescontosStep.eu_vejo_o_codigo_de_desconto()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "XPTO",
+        "description": "",
+        "id": "receber-desconto-da-qazando;xpto",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5610684000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "que tenho cupom gerado",
+            "match": {
+              "location": "DescontosStep.queTenhoCupomGerado()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      }
+    ],
+    "name": "Receber desconto da Qazando",
+    "description": "Eu como usuário da Qazando\r\nquero receber um cupom de desconto\r\npara comprar um curso com valor reduzido",
+    "id": "receber-desconto-da-qazando",
+    "keyword": "Funcionalidade",
+    "uri": "desconto.feature"
+  }
+]

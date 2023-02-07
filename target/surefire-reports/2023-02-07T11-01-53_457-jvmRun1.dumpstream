@@ -1,0 +1,3 @@
+# Created at 2023-02-07T11:01:55.141
+java.lang.ClassNotFoundException: org.apache.maven.surefire.junit4.JUnit4Provider
+
