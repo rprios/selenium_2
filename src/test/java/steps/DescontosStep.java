@@ -4,10 +4,10 @@ import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Entao;
 import cucumber.api.java.pt.Quando;
 import pages.HomePage;
-import runner.RunCucumberTeste;
+import runner.RunCucumberTest;
 
 
-public class DescontosStep extends RunCucumberTeste {
+public class DescontosStep extends RunCucumberTest {
 
 
     //Actions actions = new Actions(driver);
